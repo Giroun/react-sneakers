@@ -19,18 +19,9 @@ body {
  font-family: 'Inter', system-ui;
 }
 
-header {
-  border-bottom: 1px solid #EAEAEA;
-  h3,p{
-    margin: 0px;
-  }
-  span{
-    margin: 20px;
-  }
-}
+
 
 .content{
-
   h1{
   margin: 0;
 }
@@ -70,42 +61,7 @@ header {
   z-index: 1;
 }
 
-.drawer{
-position: absolute;
-width: 420px;
-height: 100%;
-right: 0;
-background: #FFFFFF;
-box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
-padding: 30px;
-display: flex;
-flex-direction: column;
 
-.items{
-  overflow: auto;
-  margin-bottom: 40px;
-  flex: 1;
-}
-
-h2{
-  justify-content: space-between;
-  display: flex;
-  margin: 0;
-  font-size: 24px;
-  img{
-    cursor: pointer;
-  }
-  .removeBtn{  width: 32px;
-  height: 32px;
-  opacity: 0.5;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-  &:hover{
-    opacity: 1;
-  }
-}
-}
-}
 
 .cartTotalBlock{
   .greenButton{
