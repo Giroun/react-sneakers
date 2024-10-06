@@ -4,7 +4,7 @@ import AppContext from '../context';
 
 function Favourites() {
   
-  const { favourites, onAddFavorite, onAddToCard, isLoading } = React.useContext(AppContext);
+  const { favourites } = React.useContext(AppContext);
   
   return (
     <div className="content p-40">
